@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>CourseTypeMangement</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+<!--     <welcome-file>listCourseType.jsp</welcome-file>
+ -->    <welcome-file>listStudent.jsp</welcome-file>
+    
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>AddCourseServlet</display-name>
+    <servlet-name>AddCourseServlet</servlet-name>
+    <servlet-class>controller.AddCourseServlet</servlet-class>
+  </servlet>
+   <servlet>
+    <description></description>
+    <display-name>DeleteCourseServlet</display-name>
+    <servlet-name>DeleteCourseServlet</servlet-name>
+    <servlet-class>controller.DeleteCourseServlet</servlet-class>
+  </servlet>
+   <servlet>
+    <description></description>
+    <display-name>UpdateCourseServlet</display-name>
+    <servlet-name>UpdateCourseServlet</servlet-name>
+    <servlet-class>controller.UpdateCourseServlet</servlet-class>
+  </servlet>
+   <servlet>
+    <description></description>
+    <display-name>AddCourseTypeServlet</display-name>
+    <servlet-name>AddCourseTypeServlet</servlet-name>
+    <servlet-class>controller.AddCourseTypeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description></description>
+    <display-name>UpdateCourseTypeServlet</display-name>
+    <servlet-name>UpdateCourseTypeServlet</servlet-name>
+    <servlet-class>controller.UpdateCourseTypeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description></description>
+    <display-name>DeleteCourseTypeServlet</display-name>
+    <servlet-name>DeleteCourseTypeServlet</servlet-name>
+    <servlet-class>controller.DeleteCourseTypeServlet</servlet-class>
+  </servlet>
+   <servlet>
+    <description></description>
+    <display-name>AddStudentServlet</display-name>
+    <servlet-name>AddStudentServlet</servlet-name>
+    <servlet-class>controller.AddStudentServlet</servlet-class>
+  </servlet>
+   <servlet>
+    <description></description>
+    <display-name>UpdateStudentServlet</display-name>
+    <servlet-name>UpdateStudentServlet</servlet-name>
+    <servlet-class>controller.UpdateStudentServlet</servlet-class>
+  </servlet>
+   <servlet>
+    <description></description>
+    <display-name>DeleteStudentServlet</display-name>
+    <servlet-name>DeleteStudentServlet</servlet-name>
+    <servlet-class>controller.DeleteStudentServlet</servlet-class>
+  </servlet>
+  
+ 
+</web-app>

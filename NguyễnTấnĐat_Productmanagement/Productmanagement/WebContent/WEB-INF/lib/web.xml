@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <display-name>ProductManagement</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>listStudent.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  
+    <servlet>
+    <description></description>
+    <display-name>AddproductServlet</display-name>
+    <servlet-name>AddproductServlet</servlet-name>
+    <servlet-class>controller.AddproductServlet</servlet-class>
+  </servlet>
+   <servlet>
+    <description></description>
+    <display-name>AddproductypeServlet</display-name>
+    <servlet-name>AddproductypeServlet</servlet-name>
+    <servlet-class>controller.AddproductypeServlet</servlet-class>
+  </servlet>
+   <servlet>
+    <description></description>
+    <display-name>DeleteproductServlet</display-name>
+    <servlet-name>DeleteproductServlet</servlet-name>
+    <servlet-class>controller.DeleteproductServlet</servlet-class>
+  </servlet>
+   <servlet>
+    <description></description>
+    <display-name>DeleteproductypeServlet</display-name>
+    <servlet-name>DeleteproductypeServlet</servlet-name>
+    <servlet-class>controller.DeleteproductypeServlet</servlet-class>
+  </servlet>
+   <servlet>
+    <description></description>
+    <display-name>UpdateproductServlet</display-name>
+    <servlet-name>UpdateproductServlet</servlet-name>
+    <servlet-class>controller.UpdateproductServlet</servlet-class>
+  </servlet>
+   <servlet>
+    <description></description>
+    <display-name>UpdateproductypeServlet</display-name>
+    <servlet-name>UpdateproductypeServlet</servlet-name>
+    <servlet-class>controller.UpdateproductypeServlet</servlet-class>
+  </servlet>
+</web-app>
